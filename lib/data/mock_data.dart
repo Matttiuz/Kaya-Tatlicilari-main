@@ -5,7 +5,8 @@ import 'package:flutter_app/models/drink.dart';
 import '../core/constants.dart';
 import '../widgets/bottom_menu.dart';
 import '../models/dessert.dart';
-import '../data/mock_data.dart'; // Tatlı verilerini burada saklıyoruz.
+import '../data/mock_data.dart';
+import 'package:google_fonts/google_fonts.dart'; // Tatlı verilerini burada saklıyoruz.
 
 class SweetScreen extends StatelessWidget {
   const SweetScreen({super.key});
@@ -52,15 +53,19 @@ class SweetScreen extends StatelessWidget {
               ),
               subtitle: Text(
                 dessert.description,
-                style: TextStyle(
-                  color: colors["onSurface"], // Alt başlık rengi (onSurface)
+                style: GoogleFonts.delius(
+                  textStyle: TextStyle(
+                    color: colors["onSurface"], // Alt başlık rengi (onSurface)
+                  ),
                 ),
               ),
               trailing: Text(
                 '${dessert.price.toStringAsFixed(2)} ₺',
-                style: const TextStyle(
-                  fontSize: 18, // Yazı boyutu artırıldı
-                  fontWeight: FontWeight.bold,
+                style: GoogleFonts.delius(
+                  textStyle: TextStyle(
+                    fontSize: 18, // Yazı boyutu artırıldı
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
               onTap: () {

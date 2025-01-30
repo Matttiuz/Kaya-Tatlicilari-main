@@ -22,9 +22,17 @@ Kaya Tatlıcısına özel bir sipariş uygulaması.
 
 ## Özellikler
 
-- [Kullanıcı isteğine göre tatlılar seçip sipariş edebilecek]
+- [Giriş Ekranı]
 
-- [Admin kullanıcıya özel kuponlar tanımlayabilecek]
+- [Sepet Menüsü]
+
+- [Tatlı Menüsü]
+
+- [İçecek Menüsü]
+
+- [Tema Değişimi]
+
+- [Giriş yapma ve Kayıt olma sayfası]
 
 
   
@@ -35,7 +43,6 @@ Kaya Tatlıcısına özel bir sipariş uygulaması.
 
 - Dart
 
-- [Diğer teknolojiler]
 
   
 
@@ -101,13 +108,17 @@ flutter  run
 
 lib/
 
-├── screens/ # Uygulama ekranları
+├── screens/ 
+
+    #drink_screen.dart
+    #home_screen.dart
+    #loading_screen.dart
+    #login_screen.dart
+    #register_screen.dart
+    #shopping_screen.dart
+    #sweet_screen.dart
 
 ├── widgets/ # Tekrar kullanılabilir arayüz öğeleri
-
-├── servisler/ # API servisleri
-
-└── yardımcılar/ # Yardımcı fonksiyonlar
 
 ```
 

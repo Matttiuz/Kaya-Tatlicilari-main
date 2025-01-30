@@ -102,15 +102,11 @@ flutter  run
 
 lib/
 
-├── modeller/ # Veri modelleri
+├── screens/ # Uygulama ekranları
 
-├── ekranlar/ # Uygulama ekranları
+├── services/ # Sunucu Servisleri
 
-├── widgets/ # Tekrar kullanılabilir arayüz öğeleri
-
-├── servisler/ # API servisleri
-
-└── yardımcılar/ # Yardımcı fonksiyonlar
+└── widgets/ # Tekrar kullanılabilir arayüz öğeleri
 
 ```
 

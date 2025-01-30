@@ -147,7 +147,7 @@ lib/
 
 ## Demo Video
 
-  
+  https://github.com/user-attachments/assets/a9e3ca79-882f-49cd-8f57-daafde40e430
 
 ## Projeye Katkı Sağlama
 

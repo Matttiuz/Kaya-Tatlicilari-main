@@ -69,7 +69,7 @@ git  clone [https://github.com/Matttiuz/Kaya-Tatlicilari-main]
 
 ```bash
 
-cd [mustafa]
+cd [Kaya-Tatlicilari-main]
 
 ```
 
@@ -107,10 +107,6 @@ lib/
 
 ├── widgets/ # Tekrar kullanılabilir arayüz öğeleri
 
-├── servisler/ # API servisleri
-
-└── yardımcılar/ # Yardımcı fonksiyonlar
-
 ```
 
   
@@ -143,7 +139,7 @@ lib/
 
 ## İletişim
 
-- Proje Bağlantısı: [https://github.com/Matttiuz/Kaya-Tatlicilari]
+- Proje Bağlantısı: [https://github.com/Matttiuz/Kaya-Tatlicilari-main]
 
   
 

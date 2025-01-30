@@ -1,0 +1,147 @@
+[{
+  "version": "1.0",
+  "image": {
+    "name": "/var/www/imageconvert_usr/data/www/imageconvert.org/image/public/uploadt/donut2.png",
+    "format": "json",
+    "formatDescription": "The image format and characteristics",
+    "mimeType": "application/json",
+    "class": "DirectClass",
+    "geometry": {
+      "width": 596,
+      "height": 842,
+      "x": 0,
+      "y": 0
+    },
+    "resolution": {
+      "x": 1,
+      "y": 1
+    },
+    "printSize": {
+      "x": 596,
+      "y": 842
+    },
+    "units": "Undefined",
+    "type": "TrueColorAlpha",
+    "endianness": "Undefined",
+    "colorspace": "sRGB",
+    "depth": 8,
+    "baseDepth": 8,
+    "channelDepth": {
+      "alpha": 8,
+      "red": 8,
+      "green": 8,
+      "blue": 8
+    },
+    "pixels": 501832,
+    "imageStatistics": {
+      "all": {
+        "min": 0,
+        "max": 255,
+        "mean": 54.0804,
+        "standardDeviation": 88.1374,
+        "kurtosis": 0.0666391,
+        "skewness": 1.33825,
+        "entropy": 0.187501
+      }
+    },
+    "channelStatistics": {
+      "alpha": {
+        "min": 255,
+        "max": 0,
+        "mean": 178.693,
+        "standardDeviation": 116.6,
+        "kurtosis": -1.22833,
+        "skewness": 0.876868,
+        "entropy": 0.171613
+      },
+      "red": {
+        "min": 0,
+        "max": 255,
+        "mean": 65.5556,
+        "standardDeviation": 107.637,
+        "kurtosis": -0.858069,
+        "skewness": 1.05601,
+        "entropy": 0.186956
+      },
+      "green": {
+        "min": 0,
+        "max": 255,
+        "mean": 32.049,
+        "standardDeviation": 54.7295,
+        "kurtosis": 0.316956,
+        "skewness": 1.31681,
+        "entropy": 0.20174
+      },
+      "blue": {
+        "min": 0,
+        "max": 255,
+        "mean": 42.4102,
+        "standardDeviation": 73.5835,
+        "kurtosis": -0.221603,
+        "skewness": 1.28048,
+        "entropy": 0.189695
+      }
+    },
+    "alpha": "#00000000",
+    "renderingIntent": "Perceptual",
+    "gamma": 0.454545,
+    "chromaticity": {
+      "redPrimary": {
+        "x": 0.64,
+        "y": 0.33
+      },
+      "greenPrimary": {
+        "x": 0.3,
+        "y": 0.6
+      },
+      "bluePrimary": {
+        "x": 0.15,
+        "y": 0.06
+      },
+      "whitePrimary": {
+        "x": 0.3127,
+        "y": 0.329
+      }
+    },
+    "backgroundColor": "#FFFFFFFF",
+    "borderColor": "#DFDFDFFF",
+    "matteColor": "#BDBDBDFF",
+    "transparentColor": "#00000000",
+    "interlace": "None",
+    "intensity": "Undefined",
+    "compose": "Over",
+    "pageGeometry": {
+      "width": 596,
+      "height": 842,
+      "x": 0,
+      "y": 0
+    },
+    "dispose": "Undefined",
+    "iterations": 0,
+    "compression": "Zip",
+    "orientation": "Undefined",
+    "properties": {
+      "Creator": "Adobe After Effects",
+      "date:create": "2025-01-27T13:50:39+00:00",
+      "date:modify": "2025-01-27T13:50:39+00:00",
+      "png:IHDR.bit-depth-orig": "8",
+      "png:IHDR.bit_depth": "8",
+      "png:IHDR.color-type-orig": "6",
+      "png:IHDR.color_type": "6 (RGBA)",
+      "png:IHDR.interlace_method": "0 (Not interlaced)",
+      "png:IHDR.width,height": "596, 842",
+      "png:pHYs": "x_res=1, y_res=1, units=0",
+      "png:sRGB": "intent=0 (Perceptual Intent)",
+      "png:text": "1 tEXt/zTXt/iTXt chunks were found",
+      "signature": "23adc7bf4171b350cb411916d9bb05ee85eba5ee9a6002b434700809d18836b7"
+    },
+    "tainted": false,
+    "filesize": "68732B",
+    "numberPixels": "501832",
+    "pixelsPerSecond": "53.0744MB",
+    "userTime": "0.010u",
+    "elapsedTime": "0:01.009",
+    "version": "ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org"
+  }
+}
+]

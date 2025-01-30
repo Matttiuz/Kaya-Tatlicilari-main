@@ -140,7 +140,7 @@ lib/
 
 ## İletişim
 
-- Proje Bağlantısı: [https://github.com/Matttiuz/Kaya-Tatlicilari]
+- Proje Bağlantısı: [https://github.com/Matttiuz/Kaya-Tatlicilari-main]
 
   
 

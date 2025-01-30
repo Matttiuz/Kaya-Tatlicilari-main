@@ -103,9 +103,11 @@ lib/
 
 ├── screens/ # Uygulama ekranları
 
-├── services/ # Sunucu Servisleri
+├── widgets/ # Tekrar kullanılabilir arayüz öğeleri
 
-└── widgets/ # Tekrar kullanılabilir arayüz öğeleri
+├── servisler/ # API servisleri
+
+└── yardımcılar/ # Yardımcı fonksiyonlar
 
 ```
 

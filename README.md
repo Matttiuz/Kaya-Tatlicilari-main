@@ -59,7 +59,7 @@ Kaya Tatlıcısına özel bir sipariş uygulaması.
 
 ```bash
 
-git  clone [https://github.com/Matttiuz/Kaya-Tatlicilari]
+git  clone [https://github.com/Matttiuz/Kaya-Tatlicilari-main]
 
 ```
 

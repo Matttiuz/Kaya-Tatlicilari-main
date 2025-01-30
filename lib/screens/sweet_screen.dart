@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_app/core/themes.dart';
 import 'package:go_router/go_router.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../core/constants.dart';
 import '../widgets/bottom_menu.dart';
 import '../models/dessert.dart';
@@ -24,8 +25,10 @@ class SweetScreen extends StatelessWidget {
         centerTitle: true,
         title: Text(
           'Tatlı Menüsü',
-          style: TextStyle(
-            color: colors["onSurface"], // Başlık yazı rengi (onPrimary)
+          style: GoogleFonts.delius(
+            textStyle: TextStyle(
+              color: colors["onSurface"], // Başlık yazı rengi (onPrimary)
+            ),
           ),
         ),
         actions: [],

@@ -43,7 +43,8 @@ class MyApp extends StatelessWidget {
               iconTheme: IconThemeData(color: darkColors["onSurface"]),
             ),
           ),
-          themeMode: themeProvider.isDark ? ThemeMode.dark : ThemeMode.light,
+          themeMode:
+              themeProvider.isDarkTheme ? ThemeMode.dark : ThemeMode.light,
           routerConfig: router,
           debugShowCheckedModeBanner: false,
         );

@@ -5,7 +5,15 @@
 
 ## Proje Hakkında
 
-Kaya Tatlıcısına özel bir sipariş uygulaması.
+Kayatatlıcıları uygulaması; tatlı, içecek menüsü ve sepet özellikleriyle kullanıcıların kolayca sipariş verebileceği bir tatlıcı uygulamasıdır.
+
+
+
+
+
+
+
+
   
 
 ## Ekibimiz

@@ -6,12 +6,15 @@ import 'package:google_fonts/google_fonts.dart';
 // import 'constants.dart';
 
 // theme_provider.dart
-class ThemeProvider with ChangeNotifier {
-  bool _isDark = false;
-  bool get isDark => _isDark;
+class ThemeProvider extends ChangeNotifier {
+  bool _isDarkTheme = false;
+  bool get isDarkTheme => _isDarkTheme;
+
+  ThemeData get currentTheme =>
+      _isDarkTheme ? ThemeData.dark() : ThemeData.light();
 
   void toggleTheme() {
-    _isDark = !_isDark;
+    _isDarkTheme = !_isDarkTheme;
     notifyListeners();
   }
 }
@@ -33,11 +36,11 @@ const colors = {
 const darkColors = {
   "primary": Color.fromARGB(255, 88, 50, 92), // Derin koyu morumsu pembe
   "onPrimary": Color.fromARGB(255, 220, 220, 220), // Yumuşak açık gri
-  "secondary": Color.fromARGB(255, 62, 62, 72), // Koyu mavi-gri
+  "secondary": Color.fromARGB(255, 255, 255, 255), // Koyu mavi-gri
   "onSecondary": Color.fromARGB(255, 200, 200, 210), // Hafif gri tonu
   "surface": Color.fromARGB(255, 88, 50, 92), // Saf koyu siyah-gri karışımı
   "onSurface": Color.fromARGB(255, 210, 210, 215), // Yumuşak nötr açık gri
-  "success": Color.fromARGB(255, 50, 95, 70), // Hafif yeşilimsi koyu ton
+  "success": Color.fromARGB(255, 255, 255, 255), // Hafif yeşilimsi koyu ton
   "error": Color.fromARGB(255, 120, 40, 40), // Doygun koyu kırmızı
   "onError": Color.fromARGB(255, 240, 240, 240), // Hafif kırık beyaz
 };

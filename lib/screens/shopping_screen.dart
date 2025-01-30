@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_app/screens/home_screen.dart';
 import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import '../core/constants.dart';
 import '../core/themes.dart';
 import '../widgets/bottom_menu.dart';
+import 'package:flutter_app/core/themes.dart';
 
 class ShoppingScreen extends StatelessWidget {
   const ShoppingScreen({super.key});
@@ -33,6 +34,14 @@ class ShoppingScreen extends StatelessWidget {
         iconTheme: IconThemeData(
           color: colors["onSurface"], // AppBar ikon rengi (onSurface)
         ),
+        actions: [
+          IconButton(
+            icon: Icon(CupertinoIcons.app),
+            onPressed: () {
+              context.read<ThemeProvider>().toggleTheme();
+            },
+          ),
+        ],
       ),
       body: Center(
         child: Container(

@@ -17,9 +17,11 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'Anasayfa',
-          style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                color: colors["onSurface"], // Yazı rengi
-              ),
+          style: GoogleFonts.delius(
+            textStyle: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                  color: colors["onSurface"], // Yazı rengi
+                ),
+          ),
         ),
         centerTitle: true,
         actions: [
@@ -52,7 +54,10 @@ class HomeScreen extends StatelessWidget {
               ),
               title: Text(
                 'Giriş yap / Kayıt ol',
-                style: TextStyle(color: colors["onSecondary"]), // Yazı rengi
+                style: GoogleFonts.lato(
+                  textStyle:
+                      TextStyle(color: colors["onSecondary"]), // Yazı rengi
+                ),
               ),
               onTap: () {
                 context.go('/login');
@@ -85,12 +90,13 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const Text(
+            Text(
               'Tatlı Menümüz',
-              style: TextStyle(
-                fontSize: 20,
-
-                color: Color.fromARGB(255, 255, 255, 255), // Yazı rengi
+              style: GoogleFonts.delius(
+                textStyle: TextStyle(
+                  fontSize: 20,
+                  color: Color.fromARGB(255, 255, 255, 255), // Yazı rengi
+                ),
               ),
             ),
             const SizedBox(height: 32),
@@ -113,12 +119,13 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-            const Text(
+            Text(
               'İçecek Menümüz',
-              style: TextStyle(
-                fontSize: 20,
-
-                color: Color.fromARGB(255, 255, 255, 255), // Yazı rengi
+              style: GoogleFonts.delius(
+                textStyle: TextStyle(
+                  fontSize: 20,
+                  color: Color.fromARGB(255, 255, 255, 255), // Yazı rengi
+                ),
               ),
             ),
           ],

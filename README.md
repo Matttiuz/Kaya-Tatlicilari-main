@@ -69,8 +69,7 @@ git  clone [https://github.com/Matttiuz/Kaya-Tatlicilari-main]
 
 ```bash
 
-cd [Kaya-Tatlicilari-main
-]
+cd [Kaya-Tatlicilari-main]
 
 ```
 

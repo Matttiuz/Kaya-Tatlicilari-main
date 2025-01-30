@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_app/screens/home_screen.dart';
 import 'package:go_router/go_router.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../core/constants.dart';
 import '../core/themes.dart';
 import '../widgets/bottom_menu.dart';
@@ -23,8 +24,10 @@ class ShoppingScreen extends StatelessWidget {
         centerTitle: true,
         title: Text(
           'Sepet',
-          style: TextStyle(
-            color: colors["onSurface"], // Başlık yazı rengi (onSurface)
+          style: GoogleFonts.delius(
+            textStyle: TextStyle(
+              color: colors["onSurface"], // Başlık yazı rengi (onSurface)
+            ),
           ),
         ),
         iconTheme: IconThemeData(
@@ -37,10 +40,12 @@ class ShoppingScreen extends StatelessWidget {
           padding: const EdgeInsets.all(20),
           child: Text(
             'Sepetiniz henüz boş',
-            style: TextStyle(
-              fontSize: 18,
-              color: colors["secondary"], // Yazı rengi (onSurface)
-              fontWeight: FontWeight.normal,
+            style: GoogleFonts.delius(
+              textStyle: TextStyle(
+                fontSize: 18,
+                color: colors["secondary"], // Yazı rengi (onSurface)
+                fontWeight: FontWeight.normal,
+              ),
             ),
           ),
         ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../core/constants.dart';
 
 class BottomMenu extends StatelessWidget {
@@ -28,7 +29,10 @@ class BottomMenu extends StatelessWidget {
               ),
               Text(
                 "Anasayfa",
-                style: TextStyle(color: colorScheme.onPrimary), // Yazı rengi
+                style: GoogleFonts.delius(
+                  textStyle:
+                      TextStyle(color: colorScheme.onPrimary), // Yazı rengi
+                ),
               ),
             ],
           ),
@@ -45,7 +49,10 @@ class BottomMenu extends StatelessWidget {
               ),
               Text(
                 "Sepet",
-                style: TextStyle(color: colorScheme.onPrimary), // Yazı rengi
+                style: GoogleFonts.delius(
+                  textStyle:
+                      TextStyle(color: colorScheme.onPrimary), // Yazı rengi
+                ),
               ),
             ],
           ),
@@ -62,7 +69,10 @@ class BottomMenu extends StatelessWidget {
               ),
               Text(
                 "Tatlı Menüsü",
-                style: TextStyle(color: colorScheme.onPrimary), // Yazı rengi
+                style: GoogleFonts.delius(
+                  textStyle:
+                      TextStyle(color: colorScheme.onPrimary), // Yazı rengi
+                ),
               ),
             ],
           ),
@@ -79,7 +89,10 @@ class BottomMenu extends StatelessWidget {
               ),
               Text(
                 "İçecek Menüsü",
-                style: TextStyle(color: colorScheme.onPrimary), // Yazı rengi
+                style: GoogleFonts.delius(
+                  textStyle:
+                      TextStyle(color: colorScheme.onPrimary), // Yazı rengi
+                ),
               ),
             ],
           ),

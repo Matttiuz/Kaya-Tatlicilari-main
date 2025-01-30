@@ -135,6 +135,17 @@ lib/
 ## Ekran Görüntüleri
 
 [Uygulama ekran görüntüleri buraya eklenecek]
+![](assets/images/loading.jpg)
+![](assets/images/homescreen.JPG)
+![](assets/images/shoppingscreen.JPG)
+![](assets/images/sweetscreen.JPG)
+![](assets/images/drinkscreen.JPG)
+![](assets/images/loginscreen.JPG)
+![](assets/images/registerscreen.JPG)
+![](assets/images/darkhomescreen.JPG)
+![](assets/images/darkloginscreen.JPG)
+
+## Demo Video
 
   
 
